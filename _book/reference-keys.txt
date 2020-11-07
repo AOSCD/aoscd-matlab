@@ -1,0 +1,6 @@
+sintaxis
+comentarios
+r
+python
+matlab
+octave

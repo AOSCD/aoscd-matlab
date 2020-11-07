@@ -1,0 +1,23 @@
+# Sintaxis
+
+Esta capítulo reune los aspectos de sintaxis de todos los lenguajes utilizados a lo largo del libro. Elementos como la inserción de comentarios, la creación de objetos básicos, entre otros que sean prácticamente común a cualquier implementación del lenguaje.
+
+## Comentarios
+
+Los comentarios en los lenguajes de programación representan texto legible que sirve para orientar al programador pero que en principio son obviados por el lenguaje. Por lo general son utilizados para describir el código a su alrededor.
+
+### R
+
+En un script básico de R, un comentario puede ser insertado utilizando el símbolo de número **`#`**.
+
+### Python
+
+En Python los comentarios también se insertan utilizando el signo de número **`#`**.
+
+### MatLab
+
+En MatLab un comentario se inserta utilizando el signo de porcentaje **`%`**.
+
+### Octave
+
+En octave mientras tanto, la inserción de un comentario se puede realizar utilizando cualquiera de los dos signos **`#`** o **`%`**.
