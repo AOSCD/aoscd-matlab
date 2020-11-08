@@ -1,6 +1,9 @@
 sintaxis
-comentarios
-r
-python
+secciones-de-código
 matlab
-octave
+r
+comentarios
+matlab-1
+r-1
+gráficos
+gráficos-de-funciones
