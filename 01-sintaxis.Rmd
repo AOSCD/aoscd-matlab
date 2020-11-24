@@ -28,10 +28,10 @@ En MatLab un comentario se inserta utilizando el signo de porcentaje **`%`**.
 
 En un script básico de R, un comentario puede ser insertado utilizando el símbolo de número **`#`**.
 
-### Python
+<!-- ### Python -->
 
-En Python los comentarios también se insertan utilizando el signo de número **`#`**.
+<!-- En Python los comentarios también se insertan utilizando el signo de número **`#`**. -->
 
-### Octave
+<!-- ### Octave -->
 
-En octave mientras tanto, la inserción de un comentario se puede realizar utilizando cualquiera de los dos signos **`#`** o **`%`**.
+<!-- En octave mientras tanto, la inserción de un comentario se puede realizar utilizando cualquiera de los dos signos **`#`** o **`%`**. -->
