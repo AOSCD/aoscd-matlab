@@ -5,5 +5,7 @@ r
 comentarios
 matlab-1
 r-1
+python
+octave
 gráficos
 gráficos-de-funciones

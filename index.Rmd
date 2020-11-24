@@ -12,21 +12,17 @@ link-citations: yes
 
 # Presentación {-}
 
-Este libro tiene como objetivo principal el de evaluar el uso en primer lugar de R como alternativa a softwares privativos para la realización de ciencia de datos. Este interés responde a múltiples motivaciones, detro de las que podemos mencionar:
+Este libro tiene como objetivo principal evaluar el uso software libre R, Python y Octave como alternativa a softwares privativos para la realización de ciencia de datos. Este interés responde a múltiples motivaciones, detro de las que podemos mencionar:
 
-- **Interoperabilidad**: cuanto menor sea el número de herramientas y/o lenguajes necesarios para resolver un problema, más eficiente y efectiva resulta la solución. Aún si múltiples lenguales son necesarios, la posibilidad de poder utilizar todos o la gran mayoría de ellos en un mismo documento tiene una gran importancia.
+- **Interoperabilidad**: cuanto menor sea el número de herramientas y/o lenguajes necesarios para resolver un problema, más eficiente y efectiva resulta la solución. Aún si múltiples lenguales son necesarios, el poder utilizar todos o la gran mayoría de ellos en un mismo documento tiene una gran importancia.
 
 - **Costo**: el costo de las licencias de algunos de los softwares aquí cubiertos es quizás una las motiviaciones más importantes para la búsqueda de alternativas open source.
 
-- **Curva de aprendizaje**: como científicos de datos estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. No así el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta tiene asociado un costo en tiempo y esfuerzo, que se convierte en una mativación más para aprender a resolver los problemas más comunes con las herramientas habituales.
+- **Curva de aprendizaje**: como científicos de datos estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. Por lo que el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta tiene asociado un costo en tiempo y esfuerzo, que se convierte en otra motivación para aprender a resolver los problemas más comunes con las herramientas habituales.
 
-Este documento, en principio, es por y para los estudiantes de la Maestría de Ciencias de Datos del INTEC y no pretende cubrir exhaustivamente ningun software o lenguaje de programación, sino más bien ofrecer soluciones alternativas, primordialmente en R, a los problemas y ejercicios de la maestría desarrollados en softwares propietarios.
+En un primer momento, solo sé ofrece una alternativa en R para la solución de los problemas, a menos que esta resulte mucho más complicada de implementar que otra de las alternativas open source consideradas. Este documento, en principio, es por y para los estudiantes de la Maestría de Ciencias de Datos del INTEC y no pretende cubrir exhaustivamente ningun software o lenguaje de programación, sino más bien ofrecer soluciones alternativas, primordialmente en R, a los problemas y ejercicios de la maestría desarrollados en softwares propietarios.
 
 La estructura del documento irá cambiando a lo largo del tiempo para ajustarse a las necesidades, siempre con el interés de agrupar los conceptos acorde a una temática en particular en un mismo capítulo.
-
-## Notas metodológicas {-}
-
-Para mostrar los resultados de MatLab se utilizará la función `Publish` con el que MatLab genera un documento html que combina el código con los resultados. Posteriormente se utilizará la función [insertHTML](https://drdsdaniel.github.io/Dmisc/reference/insertHTML.html) que toma un documento html e inserta su contenido en el libro.
 
 
 ```{r include=FALSE}
