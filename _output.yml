@@ -1,10 +1,9 @@
 bookdown::gitbook:
   css: style.css
+  split_by: section
   config:
     toc:
       before: |
-        <li><a href="./">Alternativas Open Source para ciencia de datos</a></li>
+        <li><a href="./">AOSCD: MatLab</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    download: ["epub"]
-bookdown::epub_book: default
