@@ -1,0 +1,20 @@
+# Acerca de los autores {#author .unnumbered}
+
+AOSCD está conformado por un grupo de hombres y mujeres identificados con el objetivo de ofrecer alternativas open source para la ciencia de datos. Sin embargo cada libro está a cargo de un equipo en particular, miembros de AOSCD, aunque cualquiera que esté interesado puede aportar al desarrollo del libro. Vea como [contribuir](https://github.com/AOSCD/aoscd-matlab#contribuyendo).
+
+Poner aquí lista de contribuyentes del repositorio:
+
+```{r, results = "asis", echo = FALSE, message = FALSE}
+library(dplyr)
+contributors <- readr::read_csv("contributors.csv", col_types = list())
+contributors <- contributors %>% 
+  mutate(
+    link = glue::glue("[\\@{login}](https://github.com/{login})"),
+    desc = ifelse(is.na(name), link, glue::glue("{name} ({link})"))
+  )
+cat("AOSCD: MatLab es una realidad gracias a la colaboración de: ")
+cat(paste0(contributors$desc, collapse = ", "))
+```
+
+## Daniel E. de la Rosa {-}
+

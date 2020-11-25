@@ -18,7 +18,7 @@ If you’ve found a bug, please file an issue that illustrates the bug with a mi
 
 *   Create a Git branch for your pull request (PR). 
 
-*   Make your changes, commit to git, and then create a PR by running `usethis::pr_push()`, and following the prompts in your browser.
+*   Make your changes, commit to git, pull to GitHub and then create a PR.
     The title of your PR should briefly describe the change.
     The body of your PR should contain `Fixes #issue-number`.
 
