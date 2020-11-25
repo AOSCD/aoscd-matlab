@@ -1,5 +1,5 @@
 --- 
-title: "Alternativas Open Source para ciencia de datos"
+title: "Alternativas Open Source para Ciencia de Datos: MatLab"
 author:
   - Daniel E. de la Rosa
 date: "`r Sys.Date()`"
@@ -13,7 +13,9 @@ nocite: '@*'
 
 # Presentación {-}
 
-Este libro tiene como objetivo principal evaluar el uso software libre R, Python y Octave como alternativa a softwares privativos para la realización de ciencia de datos. Este interés responde a múltiples motivaciones, detro de las que podemos mencionar:
+AOSCD es una serie de libros que tiene como objetivo principal evaluar el uso software libre, fundamentalmente R, como alternativa al software privativo en la solución de problemas habituales en ciencia de datos. Este libro en particular se enfoca en ofrecer alternativas open source al software privativo MatLab y sus derivados.
+
+AOSCD nace de múltiples motivaciones, detro de las que podemos mencionar:
 
 - **Interoperabilidad**: cuanto menor sea el número de herramientas y/o lenguajes necesarios para resolver un problema, más eficiente y efectiva resulta la solución. Aún si múltiples lenguales son necesarios, el poder utilizar todos o la gran mayoría de ellos en un mismo documento tiene una gran importancia.
 
@@ -21,7 +23,9 @@ Este libro tiene como objetivo principal evaluar el uso software libre R, Python
 
 - **Curva de aprendizaje**: como científicos de datos estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. Por lo que el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta tiene asociado un costo en tiempo y esfuerzo, que se convierte en otra motivación para aprender a resolver los problemas más comunes con las herramientas habituales.
 
-En un primer momento, solo sé ofrece una alternativa en R para la solución de los problemas, a menos que esta resulte mucho más complicada de implementar que otra de las alternativas open source consideradas. Este documento, en principio, es por y para los estudiantes de la Maestría de Ciencias de Datos del INTEC y no pretende cubrir exhaustivamente ningun software o lenguaje de programación, sino más bien ofrecer soluciones alternativas, primordialmente en R, a los problemas y ejercicios de la maestría desarrollados en softwares propietarios.
+En un primer momento, solo sé ofrece una alternativa en R para la solución de los problemas. La creación de alternativas en otros lenguajes está sujeta a la disposición y capacidad de los autores y sus colaboradores. No obstante, siempre que la alternativa en R resulte muy compleja o abstracta, se hará el esfuerzo de incluir nuevas alternativas que resulten más sencillas, siempre que se conozcan.
+
+Es importante mencionar que este documento no pretende cubrir exhaustivamente ningun software o lenguaje de programación, sino más bien ofrecer soluciones open source para la realización de ciertas tareas en ciencia de datos como alternativa al uso de software privativo. El dominio de las técnicas y herramientas empleadas en dichas soluciones queda a su entera responsabilidad.
 
 La estructura del documento irá cambiando a lo largo del tiempo para ajustarse a las necesidades, siempre con el interés de agrupar los conceptos acorde a una temática en particular en un mismo capítulo.
 

@@ -1,14 +1,12 @@
+# Alternativas Open Source para la Ciencia de Datos: MatLab
 
-# Alternativas Open Source para la ciencia de datos: MatLab
-
-Es un libro desarrollado por y para los estudiantes ciencia de datos que busca ofrecer alternativas Open Source al uso de software privativo en la ciencia de datos.
-
+Alternativas Open Source para la Ciencia de Datos es una serie de libros que pretende ofrecer alternativas Open Source al uso de software privativo para la solución de tareas específicas en la ciencia de datos. En tal sentido, este libro `AOSCD: MatLab` ofrece opciones para realizar tareas específicas en R, o algun otro software libre en comparación con el software privativo MatLab.
 
 ## Contribuyendo
 
 Te gustaría contribuir?
 
-Primero revisa [contributing guidelines](https://github.com/AOSCD/AOSCD/blob/main/.github/CONTRIBUTING.md) antes de crear un issue o pull request.
+Antes de crear un issue o pull request [contributing guidelines](https://github.com/AOSCD/AOSCD/blob/main/.github/CONTRIBUTING.md).
 
 Por facor, ten en cuenta que el proyecto `AOSCD` está sujeto a un código de conducta [Contributor Code of Conduct](CODE_OF_CONDUCT.md). Al contribuir con el proyecto implicitamente aceptas los términos vajo los cuales este funciona.
 

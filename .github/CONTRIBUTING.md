@@ -14,16 +14,15 @@ If you’ve found a bug, please file an issue that illustrates the bug with a mi
 
 ### Pull request process
 
-*   Fork the package and clone onto your computer. If you haven't done this before, we recommend using `usethis::create_from_github("AOSCD/AOSCD", fork = TRUE)`.
+*   Fork the package and clone onto your computer. If you haven't done this before, we recommend using `usethis::create_from_github("AOSCD/aoscd-matlab", fork = TRUE)`.
 
-*   Create a Git branch for your pull request (PR). We recommend using `usethis::pr_init("brief-description-of-change")`.
+*   Create a Git branch for your pull request (PR). 
 
-*   Make your changes, commit to git, and then create a PR by running `usethis::pr_push()`, and following the prompts in your browser.
+*   Make your changes, commit to git, pull to GitHub and then create a PR.
     The title of your PR should briefly describe the change.
     The body of your PR should contain `Fixes #issue-number`.
 
 ## Code of Conduct
 
 Please note that the  project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this
-project you agree to abide by its terms.
+[Contributor Code of Conduct](https://github.com/AOSCD/aoscd-matlab/blob/main/CODE_OF_CONDUCT.md). By contributing to this project you agree to abide by its terms.
