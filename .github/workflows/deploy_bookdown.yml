@@ -15,8 +15,8 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","bookdown"))'
-      - name: Install devtools and dplyr
-        run: Rscript -e 'install.packages(c("devtools", "dplyr"))'
+      - name: Install devtools, dplyr and readr
+        run: Rscript -e 'install.packages(c("devtools", "dplyr", "readr"))'
       - name: Install Dmisc
         run: Rscript -e 'devtools::install_github("drdsdaniel/Dmisc")'
       - name: Render Book
