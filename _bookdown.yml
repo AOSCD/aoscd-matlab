@@ -1,4 +1,5 @@
 book_filename: "aoscd-matlab"
+output_dir: "_site"
 delete_merged_file: true
 language:
   ui:
