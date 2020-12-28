@@ -6,7 +6,7 @@ A continuación se muestra un listado de las personas que han contribuido con es
 
 ```{r, results = "asis", echo = FALSE, message = FALSE}
 library(dplyr)
-contributors <- readr::read_csv(url('https://raw.githubusercontent.com/drdsdaniel/aoscd-matlab/main/contributors.csv'), col_types = list())
+contributors <- readr::read_csv("contributors.csv", col_types = list())
 contributors <- contributors %>% 
   mutate(
     link = glue::glue("[\\@{login}](https://github.com/{login})"),
