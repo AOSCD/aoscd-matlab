@@ -1,11 +1,21 @@
+bookdown::bs4_book:
+  theme:
+    primary: "#637238"
+  repo: https://github.com/hadley/r4ds
+  includes:
+    in_header: [google_analytics.html]
+    after_body: [add_accents.html]
+
 bookdown::gitbook:
-  css: style.css
-  split_by: section
+  includes:
+    in_header: [google_analytics.html]
+    after_body: [add_accents.html]
   config:
     toc:
+      collapse: section
       before: |
-        <li><a href="./">AOSCD: MatLab</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-  includes:
-    in_header: google_analytics.html
+        <li><strong><a href="./">R for Data Science</a></strong></li>
+    edit:
+      link: https://github.com/hadley/r4ds/edit/master/%s
+      text: "Edit"
+    sharing: no

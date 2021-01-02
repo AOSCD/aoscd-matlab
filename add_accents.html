@@ -1,0 +1,15 @@
+<!-- Reemplaza los errores de los acentos. -->
+  <script>
+    window.onload = function() {
+      let str = document.body.innerHTML;
+      let str2
+      str2 = str.replace(/á/g, "&aacute;")
+      str2 = str2.replace(/é/g, "&eacute;")
+      str2 = str2.replace(/í/g, "&iacute;")
+      str2 = str2.replace(/ó/g, "&oacute;")
+      str2 = str2.replace(/ú/g, "&uacute;")
+      str2 = str2.replace(/ñ/g, "&ntilde;")
+      console.log(str2);
+      document.body.innerHTML = str2;
+    };
+  </script>
