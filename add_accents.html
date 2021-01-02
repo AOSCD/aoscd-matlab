@@ -9,7 +9,13 @@
       str2 = str2.replace(/ó/g, "&oacute;")
       str2 = str2.replace(/ú/g, "&uacute;")
       str2 = str2.replace(/ñ/g, "&ntilde;")
-      console.log(str2);
       document.body.innerHTML = str2;
+
+      document.title = document.title.replace(/á/g, "\u00e1")
+      document.title = document.title.replace(/é/g, "\u00e9")
+      document.title = document.title.replace(/í/g, "\u00ed")
+      document.title = document.title.replace(/ó/g, "\u00F3")
+      document.title = document.title.replace(/ú/g, "\u00fa")
+      document.title = document.title.replace(/ñ/g, "\u00f1")
     };
   </script>
