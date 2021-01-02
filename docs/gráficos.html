@@ -121,8 +121,14 @@ plot(x, y)
       str2 = str2.replace(/Ã³/g, "&oacute;")
       str2 = str2.replace(/Ãº/g, "&uacute;")
       str2 = str2.replace(/Ã±/g, "&ntilde;")
-      console.log(str2);
       document.body.innerHTML = str2;
+
+      document.title = document.title.replace(/Ã¡/g, "\u00e1")
+      document.title = document.title.replace(/Ã©/g, "\u00e9")
+      document.title = document.title.replace(/Ã­/g, "\u00ed")
+      document.title = document.title.replace(/Ã³/g, "\u00F3")
+      document.title = document.title.replace(/Ãº/g, "\u00fa")
+      document.title = document.title.replace(/Ã±/g, "\u00f1")
     };
   </script><div class="chapter-nav">
 <div class="prev"><a href="sintaxis.html"><span class="header-section-number">1</span> Sintaxis</a></div>
