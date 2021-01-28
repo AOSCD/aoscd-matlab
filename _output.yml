@@ -14,8 +14,9 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><strong><a href="./">R for Data Science</a></strong></li>
+        <li><strong><a href="./">Alternativas Open Source para la Ciencia de Datos: Matlab</a></strong></li>
     edit:
       link: https://github.com/aoscd/aoscd-matlab/edit/main/%s
       text: "Edit"
     sharing: no
+  split_by: section
