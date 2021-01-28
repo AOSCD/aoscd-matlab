@@ -30,4 +30,3 @@ y = function(x) x^7/3
 curve(y, -10, 10)
 ```
 
-
