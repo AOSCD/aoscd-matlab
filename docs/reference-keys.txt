@@ -1,3 +1,4 @@
+anthony-mora
 sintaxis
 secciones-de-código
 matlab
@@ -9,3 +10,5 @@ gráficos
 gráficos-de-funciones
 matlab-2
 r-2
+algebra-lineal
+eliminación-gauss-jordan
