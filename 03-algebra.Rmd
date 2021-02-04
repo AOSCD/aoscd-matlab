@@ -9,3 +9,5 @@ Estos temas sobre matrices y espacios vectoriales, trabajan detrás de algoritmo
 Este es el algoritmo típico para la resolución de un sistema de ecuaciones, y básicamente se apoya en transformaciones elementales que reducen el sistema a una forma más sencilla.
 
 
+
+

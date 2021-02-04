@@ -31,3 +31,4 @@ contribs_all <- contribs_all %>%
   left_join(info_all) %>%
   arrange(login)
 write_csv(contribs_all, "contributors.csv")
+

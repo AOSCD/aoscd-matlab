@@ -23,7 +23,7 @@ Para hacer lo propio en R:
 1. Definimos una variable como función de la otra.
 2. Graficamos la función especificando el rango de valores de interés.
 
-Lo que resulta igual o más fácil de realizar que en MatLab.
+Lo que resulta igual o más fácil de realizar que en MatLab. 
 
 ```{r}
 y = function(x) x^7/3

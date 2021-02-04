@@ -2,6 +2,7 @@
 title: "Alternativas Open Source para Ciencia de Datos: MatLab"
 author:
   - Daniel E. de la Rosa
+  - Anthony Mora
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -10,6 +11,8 @@ biblio-style: apalike
 link-citations: yes
 nocite: '@*'
 ---
+
+
 
 # Presentación {-}
 
@@ -28,3 +31,4 @@ En un primer momento, solo se ofrece una alternativa en R para la solución de l
 Es importante mencionar que este documento no pretende cubrir exhaustivamente ningun software o lenguaje de programación, sino más bien ofrecer soluciones open source para la realización de ciertas tareas en ciencia de datos como alternativa al uso de software privativo. El dominio de las técnicas y herramientas empleadas en dichas soluciones queda a su entera responsabilidad.
 
 La estructura del documento irá cambiando a lo largo del tiempo para ajustarse a las necesidades, siempre con el interés de agrupar los conceptos acorde a una temática en particular en un mismo capítulo.
+
