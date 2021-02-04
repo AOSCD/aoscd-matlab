@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>2.1 Gráficos de funciones | Alternativas Open Source para Ciencia de Datos: MatLab</title>
   <meta name="description" content="2.1 Gráficos de funciones | Alternativas Open Source para Ciencia de Datos: MatLab" />
-  <meta name="generator" content="bookdown 0.21.4 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21.6 and GitBook 2.6.7" />
 
   <meta property="og:title" content="2.1 Gráficos de funciones | Alternativas Open Source para Ciencia de Datos: MatLab" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Daniel E. de la Rosa" />
 
 
-<meta name="date" content="2021-01-02" />
+<meta name="date" content="2021-01-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -129,7 +129,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+
 </head>
 
 <body>
@@ -142,7 +142,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">AOSCD: MatLab</a></li>
+<li><strong><a href="./">Alternativas Open Source para la Ciencia de Datos: Matlab</a></strong></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Presentación</a></li>
@@ -166,9 +166,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -236,6 +233,27 @@ plot(x, y)
 </div>
 </div>
 <!-- </div> -->
+<!-- Reemplaza los errores de los acentos. -->
+  <script>
+    window.onload = function() {
+      let str = document.body.innerHTML;
+      let str2
+      str2 = str.replace(/á/g, "&aacute;")
+      str2 = str2.replace(/é/g, "&eacute;")
+      str2 = str2.replace(/í/g, "&iacute;")
+      str2 = str2.replace(/ó/g, "&oacute;")
+      str2 = str2.replace(/ú/g, "&uacute;")
+      str2 = str2.replace(/ñ/g, "&ntilde;")
+      document.body.innerHTML = str2;
+
+      document.title = document.title.replace(/á/g, "\u00e1")
+      document.title = document.title.replace(/é/g, "\u00e9")
+      document.title = document.title.replace(/í/g, "\u00ed")
+      document.title = document.title.replace(/ó/g, "\u00F3")
+      document.title = document.title.replace(/ú/g, "\u00fa")
+      document.title = document.title.replace(/ñ/g, "\u00f1")
+    };
+  </script>
             </section>
 
           </div>
@@ -257,24 +275,15 @@ plot(x, y)
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
+"sharing": false,
 "fontsettings": {
 "theme": "white",
 "family": "sans",
 "size": 2
 },
 "edit": {
-"link": null,
-"text": null
+"link": "https://github.com/aoscd/aoscd-matlab/edit/main/02-graficos.Rmd",
+"text": "Edit"
 },
 "history": {
 "link": null,
@@ -286,7 +295,7 @@ gitbook.start({
 },
 "download": null,
 "toc": {
-"collapse": "subsection"
+"collapse": "section"
 }
 });
 });

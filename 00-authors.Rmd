@@ -17,8 +17,8 @@ cat(paste0(contributors$desc, collapse = ", "))
 
 ## Daniel E. de la Rosa {-}
 
-Daniel E. de la Rosa (https://delarosadaniel.com) es el creador de AOSCD (https://aoscd.github.io/). Es economista en Grupo de Consultoría Pareto (https://gcpareto.com). Es economista de profesión con estudios de posgrado en Matemáticas Puras y Maestría en Ciencia de los Datos.
+Daniel E. de la Rosa (https://delarosadaniel.com) es el creador de AOSCD (https://aoscd.github.io/). Es economista en Grupo de Consultoría Pareto (https://gcpareto.com). Economista de profesión con estudios de posgrado en Matemáticas Puras y Maestría en Ciencia de los Datos.
 
-Es autor de varios paquetes en el ecosistema R, tales como Rmdx (https://drdsdaniel.github.io/Rmdx/), Dmisc (https://drdsdaniel.github.io/Dmisc/) y crender (https://drdsdaniel.github.io/crender/). Creador del proyecto **En**cuestas **Dom**inicanas **e**n **R** (endomer) (https://endomer.github.io/). Es cofundador de la compañía DBRA Solutions (https://dbra.com.do/).
+Es autor de varios paquetes en el ecosistema R, tales como __Rmdx__ (https://drdsdaniel.github.io/Rmdx/), __Dmisc__ (https://drdsdaniel.github.io/Dmisc/) y __crender__ (https://drdsdaniel.github.io/crender/). Creador del proyecto **En**cuestas **Dom**inicanas **e**n **R** (endomer) (https://endomer.github.io/). Es cofundador de la compañía DBRA Solutions (https://dbra.com.do/).
 
-No es de redes sociales, pero si en alguna lo has de encontrar es en Twitter (https://twitter.com/drdsdaniel), o por supuesto, en GitHub (https://github.com/drdsdaniel/) colaborando en alguno que otro proyecto Open Source.
+No es de redes sociales, pero si en alguna lo has de encontrar es en Twitter (https://twitter.com/drdsdaniel) o, por supuesto, en GitHub (https://github.com/drdsdaniel/) colaborando en alguno que otro proyecto Open Source.
