@@ -1,5 +1,5 @@
 # Alternativas Open Source para la Ciencia de Datos: MatLab
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 
 Alternativas Open Source para la Ciencia de Datos es un proyecto que pretende ofrecer alternativas Open Source al uso de software privativo para la solución de tareas específicas en la ciencia de datos. En tal sentido, este libro `AOSCD: MatLab` ofrece opciones para realizar tareas específicas en R, o algun otro software libre en comparación con el software privativo MatLab.
