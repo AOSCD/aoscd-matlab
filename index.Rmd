@@ -14,7 +14,6 @@ nocite: '@*'
 ---
 
 
-
 # Presentación {-}
 
 AOSCD es un proyecto que tiene como objetivo principal evaluar el uso software libre, fundamentalmente R, como complemento (alternativa) al software privativo en la solución de problemas habituales en ciencia de datos. Este libro en particular se enfoca en ofrecer soluciones open source al software privativo MatLab y sus derivados.
