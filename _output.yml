@@ -5,6 +5,7 @@ bookdown::bs4_book:
   includes:
     in_header: [google_analytics.html]
     after_body: [add_accents.html]
+  split_by: section
 
 bookdown::gitbook:
   includes:
@@ -17,6 +18,6 @@ bookdown::gitbook:
         <li><strong><a href="./">Alternativas Open Source para la Ciencia de Datos: Matlab</a></strong></li>
     edit:
       link: https://github.com/aoscd/aoscd-matlab/edit/main/%s
-      text: "Edit"
+      text: "Editar"
     sharing: no
   split_by: section

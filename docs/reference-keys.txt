@@ -1,4 +1,4 @@
-anthony-mora
+conceptos-básicos
 sintaxis
 secciones-de-código
 matlab
@@ -6,6 +6,8 @@ r
 comentarios
 matlab-1
 r-1
+io-la-forma-más-básica-de-interoperabilidad
+octave-el-arma-secreta
 gráficos
 gráficos-de-funciones
 matlab-2

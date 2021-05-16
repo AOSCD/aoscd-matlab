@@ -1,0 +1,13 @@
+# Algebra Lineal
+
+Esta rama de las matemáticas resulta de mucha importancia para el cientifico de datos, no solo por la facilidad de representar problemas en terminos de matrices, o la menor demanda de poder computacional en comparación con el uso de bucles.
+
+Estos temas sobre matrices y espacios vectoriales, trabajan detrás de algoritmos como regresión lineal, máquinas de vectores de soporte y aplicaciones como análisis de componentes principales y reducción de dimensionalidad.
+
+## Eliminación Gauss-Jordan
+
+Este es el algoritmo típico para la resolución de un sistema de ecuaciones, y básicamente se apoya en transformaciones elementales que reducen el sistema a una forma más sencilla.
+
+
+
+
