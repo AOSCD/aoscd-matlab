@@ -3,6 +3,7 @@ title: "Alternativas Open Source para Ciencia de Datos: MatLab"
 author:
   - Daniel E. de la Rosa
   - Anthony Mora
+  - Deyanara Matos
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
