@@ -7,9 +7,9 @@
 <title>Presentación | Alternativas Open Source para Ciencia de Datos: MatLab</title>
 <meta name="author" content="Daniel E. de la Rosa">
 <meta name="author" content="Anthony Mora">
-<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.5/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.2"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.7.12/header-attrs.js"></script><script src="libs/jquery-3.5.1/jquery-3.5.1.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.5.3/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.5.3/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.2.9001/tabs.js"></script><script src="libs/bs3compat-0.2.2.9001/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.5.3/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.4/tabs.js"></script><script src="libs/bs3compat-0.2.4/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-74YTV3QHRB"></script><script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -40,9 +40,16 @@
         <ul class="book-toc list-unstyled">
 <li><a class="active" href="index.html">Presentación</a></li>
 <li><a class="" href="author.html">Acerca de los autores</a></li>
-<li><a class="" href="sintaxis.html"><span class="header-section-number">1</span> Sintaxis</a></li>
-<li><a class="" href="gr%C3%A1ficos.html"><span class="header-section-number">2</span> Gráficos</a></li>
-<li><a class="" href="algebra-lineal.html"><span class="header-section-number">3</span> Algebra Lineal</a></li>
+<li class="book-part">Parte I: Aspectos generales</li>
+<li><a class="" href="conceptos-b%C3%A1sicos.html"><span class="header-section-number">1</span> Conceptos básicos</a></li>
+<li><a class="" href="sintaxis.html"><span class="header-section-number">2</span> Sintaxis</a></li>
+<li class="book-part">Parte II: Combinación básica</li>
+<li><a class="" href="io-la-forma-m%C3%A1s-b%C3%A1sica-de-interoperabilidad.html"><span class="header-section-number">3</span> IO: La forma más básica de interoperabilidad</a></li>
+<li class="book-part">Parte III: Cambio parcial</li>
+<li><a class="" href="octave-el-arma-secreta.html"><span class="header-section-number">4</span> Octave: El arma secreta</a></li>
+<li class="book-part">Parte IV: Cambio total</li>
+<li><a class="" href="gr%C3%A1ficos.html"><span class="header-section-number">5</span> Gráficos</a></li>
+<li><a class="" href="algebra-lineal.html"><span class="header-section-number">6</span> Algebra Lineal</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -54,16 +61,21 @@
   </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="presentación" class="section level1 unnumbered">
 <h1>Presentación<a class="anchor" aria-label="anchor" href="#presentaci%C3%B3n"><i class="fas fa-link"></i></a>
 </h1>
-<p>AOSCD es un proyecto que tiene como objetivo principal evaluar el uso software libre, fundamentalmente R, como alternativa al software privativo en la solución de problemas habituales en ciencia de datos. Este libro en particular se enfoca en ofrecer alternativas open source al software privativo MatLab y sus derivados.</p>
+<p>AOSCD es un proyecto que tiene como objetivo principal evaluar el uso software libre, fundamentalmente R, como complemento (alternativa) al software privativo en la solución de problemas habituales en ciencia de datos. Este libro en particular se enfoca en ofrecer soluciones open source al software privativo MatLab y sus derivados.</p>
 <p>AOSCD nace de múltiples motivaciones, detro de las que podemos mencionar:</p>
 <ul>
 <li><p><strong>Interoperabilidad</strong>: cuanto menor sea el número de herramientas y/o lenguajes necesarios para resolver un problema, más eficiente y efectiva resulta la solución. Aún si múltiples lenguales son necesarios, el poder utilizar todos o la gran mayoría de ellos en un mismo documento tiene una gran importancia.</p></li>
 <li><p><strong>Costo</strong>: el costo de las licencias de algunos de los softwares aquí cubiertos es quizás una las motiviaciones más importantes para la búsqueda de alternativas open source.</p></li>
-<li><p><strong>Curva de aprendizaje</strong>: como científicos de datos estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. Por lo que el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta tiene asociado un costo en tiempo y esfuerzo, que se convierte en otra motivación para aprender a resolver los problemas más comunes con las herramientas habituales.</p></li>
+<li><p><strong>Curva de aprendizaje</strong>: como científicos de datos, o profesionales afines, estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. Por lo que el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta tiene asociado un costo en tiempo y esfuerzo, que se convierte en otra motivación para aprender a resolver los problemas más comunes con las herramientas habituales.</p></li>
 </ul>
 <p>En un primer momento, solo se ofrece una alternativa en R para la solución de los problemas. La creación de alternativas en otros lenguajes está sujeta a la disposición y capacidad de los autores y sus colaboradores. No obstante, siempre que la alternativa en R resulte muy compleja o abstracta, se hará el esfuerzo de incluir nuevas alternativas que resulten más sencillas, siempre que se conozcan.</p>
-<p>Es importante mencionar que este documento no pretende cubrir exhaustivamente ningun software o lenguaje de programación, sino más bien ofrecer soluciones open source para la realización de ciertas tareas en ciencia de datos como alternativa al uso de software privativo. El dominio de las técnicas y herramientas empleadas en dichas soluciones queda a su entera responsabilidad.</p>
-<p>La estructura del documento irá cambiando a lo largo del tiempo para ajustarse a las necesidades, siempre con el interés de agrupar los conceptos acorde a una temática en particular en un mismo capítulo.</p>
+<p>Es importante mencionar que este documento no pretende cubrir exhaustivamente ningún software o lenguaje de programación, sino más bien ofrecer soluciones open source para la realización de ciertas tareas en ciencia de datos como alternativa al uso de software privativo. El dominio de las técnicas y herramientas empleadas en dichas soluciones queda a su entera responsabilidad.</p>
+<p>La estructura del documento irá cambiando con el tiempo para ajustarse a las necesidades, siempre con el interés de agrupar los conceptos acorde a una temática en particular en un mismo capítulo.</p>
+<p>Actualmente el documento está organizado de la siguiente manera:</p>
+<p><strong>Parte I: Aspectos generales</strong>: esta primera parte se dedica a la presentación de los elementos generales de los lenguajes utilizados a lo largo del libro, tales como la sintaxis del código, creación de comentarios, entre muchas otras que son técnicamente transversales a cualquier tema que se pueda tratar en el libro.</p>
+<p><strong>Parte II: Combinación básica</strong>: esta sección está dedicada a personas que saben/quieren/pueden utilizar tanto R como Matlab en sus flujos de trabajo. En ella se ofrecen opciones para sacar los mejor de ambos mundos y combinarlo en un mismo resultado.</p>
+<p><strong>Parte III: Cambio parcial</strong>: esta sección va un paso más allá en comparación con la anterior. Está pensada para aquellos usuarios que si bien están dispuestos a realizar el cambio, por alguna razón se encuentran atados a Matlab en sus flujos de trabajo. En ella se presentan formas de convertir y/o ejecutar código Matlab en R.</p>
+<p><strong>Parte IV: Cambio total</strong>: esta sección llega hasta el fondo del asunto. Pensada en usuarios que sí tienen la intención y capacidad de hacer el cambio, ofrece un listado de alternativas directas a los principales comando utilizados en Matlab, así como soluciones más elaboradas a los principales problemas de ciencia de datos que se suelen resolver en este programa.</p>
 
 </div>
 <!-- Reemplaza los errores de los acentos. -->
@@ -108,7 +120,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Alternativas Open Source para Ciencia de Datos: MatLab</strong>" was written by Daniel E. de la Rosa, Anthony Mora. It was last built on 2021-02-03.</p>
+    <p>"<strong>Alternativas Open Source para Ciencia de Datos: MatLab</strong>" was written by Daniel E. de la Rosa, Anthony Mora. It was last built on 2021-05-15.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
