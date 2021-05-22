@@ -16,7 +16,9 @@ nocite: '@*'
 
 # Presentación {-}
 
-AOSCD es un proyecto que tiene como objetivo principal evaluar el uso software libre, fundamentalmente R, como complemento (alternativa) al software privativo en la solución de problemas habituales en ciencia de datos. Este libro en particular se enfoca en ofrecer soluciones open source al software privativo MatLab y sus derivados.
+AOSCD es un proyecto que tiene como objetivo principal evaluar el uso de software libre, fundamentalmente R, como complemento (alternativa) al software privativo en la solución de problemas habituales en Ciencia de Datos. 
+
+> Este libro en particular se enfoca en ofrecer soluciones open source al software privativo MatLab y sus derivados.
 
 AOSCD nace de múltiples motivaciones, detro de las que podemos mencionar:
 
@@ -24,21 +26,23 @@ AOSCD nace de múltiples motivaciones, detro de las que podemos mencionar:
 
 - **Costo**: el costo de las licencias de algunos de los softwares aquí cubiertos es quizás una las motiviaciones más importantes para la búsqueda de alternativas open source.
 
-- **Curva de aprendizaje**: como científicos de datos, o profesionales afines, estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. Por lo que el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta tiene asociado un costo en tiempo y esfuerzo, que se convierte en otra motivación para aprender a resolver los problemas más comunes con las herramientas habituales.
+- **Curva de aprendizaje**: como científicos de datos, o profesionales afines, estamos llamados a manejar con cierta destreza los lenguajes de programación R y Python. Por lo que el apredizaje de un nuevo lenguaje de programación o manejo de alguna herramienta para la solución de problemas puntuales, tiene asociado un costo en tiempo y esfuerzo. Resultando en otra motivación para aprender a resolver dichos problemas con las herramientas habituales.
 
-En un primer momento, solo se ofrece una alternativa en R para la solución de los problemas. La creación de alternativas en otros lenguajes está sujeta a la disposición y capacidad de los autores y sus colaboradores. No obstante, siempre que la alternativa en R resulte muy compleja o abstracta, se hará el esfuerzo de incluir nuevas alternativas que resulten más sencillas, siempre que se conozcan.
+En un primer momento, solo se ofrece una alternativa en R para la solución de los problemas. La creación de alternativas en otros lenguajes está sujeta a la disposición y capacidad de los autores y sus colaboradores. No obstante, siempre que la alternativa en R resulte muy compleja o abstracta, se hará el esfuerzo de incluir nuevas alternativas que resulten más sencillas.
 
-Es importante mencionar que este documento no pretende cubrir exhaustivamente ningún software o lenguaje de programación, sino más bien ofrecer soluciones open source para la realización de ciertas tareas en ciencia de datos como alternativa al uso de software privativo. El dominio de las técnicas y herramientas empleadas en dichas soluciones queda a su entera responsabilidad.
+Es importante mencionar que este documento no pretende cubrir exhaustivamente ningún software o lenguaje de programación, sino más bien ofrecer soluciones open source para la realización de ciertas tareas en Ciencia de Datos como alternativa o complemente al uso de software privativo. 
+
+Este libro no pretende enseñar a programar o utilizar alguna de las herramientas propuestas, sino más bien se enfoca en mostrar soluciones alternativas a problemas concretos. El dominio de las técnicas y herramientas empleadas en dichas soluciones queda a la entera responsabilidad del lector.^[Sin embargo, por lo general se recomendarán recursos que se entiendan puedan ser útiles para el estudio en general de las herramientas utilizadas.]
 
 La estructura del documento irá cambiando con el tiempo para ajustarse a las necesidades, siempre con el interés de agrupar los conceptos acorde a una temática en particular en un mismo capítulo.
 
-Actualmente el documento está organizado de la siguiente manera:
+El documento está organizado en 4 secciones, que se describen brevemente a continuación. Además, en cada una se inicia con un cápitulo que la describe con información relevante sobre lo que sí y lo que no aprederás en esa parte del libro, los prerequisitos de la misma, entre otros.
 
-**Parte I: Aspectos generales**: esta primera parte  se dedica a la presentación de los elementos generales de los lenguajes utilizados a lo largo del libro, tales como la sintaxis del código, creación de comentarios, entre muchas otras que son técnicamente transversales a cualquier tema que se pueda tratar en el libro.
+**Parte I: Aspectos generales**: esta primera parte  se dedica a la presentación de los elementos generales de los lenguajes y herramientas utilizados a lo largo del libro. Elementos que son técnicamente transversales a cualquier tema que se pueda tratar en el libro.
 
-**Parte II: Combinación básica**: esta sección está dedicada a personas que saben/quieren/pueden utilizar tanto R como Matlab en sus flujos de trabajo. En ella se ofrecen opciones para sacar los mejor de ambos mundos y combinarlo en un mismo resultado.
+**Parte II: Combinación básica**: esta sección está dedicada a personas que saben/quieren/pueden utilizar tanto R como Matlab en sus flujos de trabajo. En ella se ofrecen opciones para sacar lo mejor de ambos mundos y combinarlo en un mismo resultado.
 
-**Parte III: Cambio parcial**: esta sección va un paso más allá en comparación con la anterior. Está pensada para aquellos usuarios que si bien están dispuestos a realizar el cambio, por alguna razón se encuentran atados a Matlab en sus flujos de trabajo. En ella se presentan formas de convertir y/o ejecutar código Matlab en R.
+**Parte III: Cambio parcial**: esta sección va un paso más allá en comparación con la anterior. Está pensada para aquellos usuarios que si bien están dispuestos a realizar el cambio, por alguna razón se encuentran atados a Matlab en sus flujos de trabajo. En ella se presentan formas de convertir y/o ejecutar código Matlab en R u otros open source.
 
-**Parte IV: Cambio total**:  esta sección llega hasta el fondo del asunto. Pensada en usuarios que sí tienen la intención y capacidad de hacer el cambio, ofrece un listado de alternativas directas a los principales comando utilizados en Matlab, así como soluciones más elaboradas a los principales problemas de ciencia de datos que se suelen resolver en este programa.
+**Parte IV: Cambio total**:  esta sección llega hasta el fondo del asunto. Pensada para aquellos usuarios que sí tienen la intención y capacidad de hacer el cambio. Ofrece un listado de alternativas directas a los principales comandos utilizados en Matlab, así como soluciones más elaboradas a los principales problemas de Ciencia de Datos que se suelen resolver utlizando esta herramienta.
 
