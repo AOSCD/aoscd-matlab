@@ -23,6 +23,6 @@ Es autor de varios paquetes en el ecosistema R, tales como __Rmdx__ (https://drd
 
 No es de redes sociales, pero si en alguna lo has de encontrar es en Twitter (https://twitter.com/drdsdaniel) o, por supuesto, en GitHub (https://github.com/drdsdaniel/) colaborando en alguno que otro proyecto Open Source.
 
-<!-- ## Anthony Mora {-} -->
+## Anthony Mora {-}
 
-<!-- ## Deyanara Matos {-}  -->
+## Deyanara Matos {-}
